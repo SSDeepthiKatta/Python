@@ -1,7 +1,5 @@
 #Lab Assignment-3
-
 #Question -1
-
 #Pick any dataset from the dataset sheet in class sheet and make one prediction model using your imagination with Linear Discriminant Analysis*.
 # Some examples are:
 # a.In the report provide convincible explanations about the difference of logisticregression and Linear Discriminant Analysis.b.
@@ -16,11 +14,12 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 digi = datasets.load_digits()
 X = digi.data
 y = digi.target
-names = digi.target_names
+names = digi.target_names #getting the target names from dataset
 
 #importing scikit library to get the prediction model
 from sklearn.model_selection import train_test_split
 X_t_r, X_t, y_t_r, y_t = train_test_split(X, y, test_size=0.30)
+
 #using K- neihbours classification
 from sklearn.neighbors import KNeighborsClassifier
 classifier = KNeighborsClassifier(n_neighbors=5)
