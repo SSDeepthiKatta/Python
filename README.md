@@ -1,5 +1,5 @@
-# Python
-Respository created to submit Python Lab Assignments   
+# Python Course Work
+   
 **Name : Satya Sai Deepthi Katta**  
 **Class ID : 21**   
 
